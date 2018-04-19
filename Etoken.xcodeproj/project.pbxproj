@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C00F58720883F87009B7B35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F58620883F87009B7B35 /* AppDelegate.m */; };
+		4C00F58F20883F8A009B7B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C00F58E20883F8A009B7B35 /* Assets.xcassets */; };
+		4C00F59220883F8A009B7B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C00F59020883F8A009B7B35 /* LaunchScreen.storyboard */; };
+		4C00F59520883F8A009B7B35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F59420883F8A009B7B35 /* main.m */; };
+		4C00F5A320884ABC009B7B35 /* ETMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5A220884ABC009B7B35 /* ETMainViewController.m */; };
+		4C00F5BE20889763009B7B35 /* ETFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5B620889763009B7B35 /* ETFoundViewController.m */; };
+		4C00F5BF20889763009B7B35 /* ETMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5B720889763009B7B35 /* ETMeViewController.m */; };
+		4C00F5C020889763009B7B35 /* ETMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5B820889763009B7B35 /* ETMarketViewController.m */; };
+		4C00F5C120889763009B7B35 /* ETAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5BD20889763009B7B35 /* ETAssetsViewController.m */; };
+		4C00F5C42088976E009B7B35 /* ETNavigateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5C32088976E009B7B35 /* ETNavigateController.m */; };
+		4C00F5CD20889BC6009B7B35 /* ETSystemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5CC20889BC6009B7B35 /* ETSystemTool.m */; };
+		4C00F5D120889BF2009B7B35 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5D020889BF2009B7B35 /* NSString+Extension.m */; };
+		4C00F5D42088A29F009B7B35 /* ETMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5D32088A29F009B7B35 /* ETMenuViewController.m */; };
+		4C00F5D72088A518009B7B35 /* ETHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5D62088A518009B7B35 /* ETHttpTool.m */; };
+		EECCF9E65AEA6821254B4D7D /* libPods-Etoken.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67745E2A8CAAAA4545AA849C /* libPods-Etoken.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CA1B96DABC7E60E6B47EED5 /* Pods-Etoken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etoken.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Etoken/Pods-Etoken.debug.xcconfig"; sourceTree = "<group>"; };
+		4C00F58220883F87009B7B35 /* Etoken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etoken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C00F58520883F87009B7B35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C00F58620883F87009B7B35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C00F58E20883F8A009B7B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C00F59120883F8A009B7B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C00F59320883F8A009B7B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C00F59420883F8A009B7B35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C00F5A120884ABC009B7B35 /* ETMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETMainViewController.h; sourceTree = "<group>"; };
+		4C00F5A220884ABC009B7B35 /* ETMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETMainViewController.m; sourceTree = "<group>"; };
+		4C00F5B620889763009B7B35 /* ETFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFoundViewController.m; sourceTree = "<group>"; };
+		4C00F5B720889763009B7B35 /* ETMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMeViewController.m; sourceTree = "<group>"; };
+		4C00F5B820889763009B7B35 /* ETMarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMarketViewController.m; sourceTree = "<group>"; };
+		4C00F5B920889763009B7B35 /* ETAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETAssetsViewController.h; sourceTree = "<group>"; };
+		4C00F5BA20889763009B7B35 /* ETMarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMarketViewController.h; sourceTree = "<group>"; };
+		4C00F5BB20889763009B7B35 /* ETMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMeViewController.h; sourceTree = "<group>"; };
+		4C00F5BC20889763009B7B35 /* ETFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFoundViewController.h; sourceTree = "<group>"; };
+		4C00F5BD20889763009B7B35 /* ETAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETAssetsViewController.m; sourceTree = "<group>"; };
+		4C00F5C22088976E009B7B35 /* ETNavigateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavigateController.h; sourceTree = "<group>"; };
+		4C00F5C32088976E009B7B35 /* ETNavigateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavigateController.m; sourceTree = "<group>"; };
+		4C00F5C52088977D009B7B35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4C00F5CB20889BC6009B7B35 /* ETSystemTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSystemTool.h; sourceTree = "<group>"; };
+		4C00F5CC20889BC6009B7B35 /* ETSystemTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETSystemTool.m; sourceTree = "<group>"; };
+		4C00F5CF20889BF2009B7B35 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		4C00F5D020889BF2009B7B35 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		4C00F5D22088A29F009B7B35 /* ETMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETMenuViewController.h; sourceTree = "<group>"; };
+		4C00F5D32088A29F009B7B35 /* ETMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETMenuViewController.m; sourceTree = "<group>"; };
+		4C00F5D52088A518009B7B35 /* ETHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHttpTool.h; sourceTree = "<group>"; };
+		4C00F5D62088A518009B7B35 /* ETHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHttpTool.m; sourceTree = "<group>"; };
+		4C00F5DD2088A800009B7B35 /* Etoken-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Etoken-Bridging-Header.h"; sourceTree = "<group>"; };
+		67745E2A8CAAAA4545AA849C /* libPods-Etoken.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Etoken.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA7A08C0A3247508037663B /* Pods-Etoken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etoken.release.xcconfig"; path = "Pods/Target Support Files/Pods-Etoken/Pods-Etoken.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C00F57F20883F87009B7B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECCF9E65AEA6821254B4D7D /* libPods-Etoken.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0833ED9F4C37010E97A706F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67745E2A8CAAAA4545AA849C /* libPods-Etoken.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C00F57920883F86009B7B35 = {
+			isa = PBXGroup;
+			children = (
+				4C00F58420883F87009B7B35 /* Etoken */,
+				4C00F58320883F87009B7B35 /* Products */,
+				D4FCAB8C695F0873C2B753DE /* Pods */,
+				0833ED9F4C37010E97A706F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C00F58320883F87009B7B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F58220883F87009B7B35 /* Etoken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C00F58420883F87009B7B35 /* Etoken */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F59C208849E0009B7B35 /* Other */,
+				4C00F59B208849D0009B7B35 /* Class */,
+				4C00F59320883F8A009B7B35 /* Info.plist */,
+			);
+			path = Etoken;
+			sourceTree = "<group>";
+		};
+		4C00F59B208849D0009B7B35 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F5CA20889BC6009B7B35 /* Tool */,
+				4C00F5B520889763009B7B35 /* Tab */,
+				4C00F5A020884A9C009B7B35 /* Lib */,
+				4C00F59D20884A9B009B7B35 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4C00F59C208849E0009B7B35 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F58520883F87009B7B35 /* AppDelegate.h */,
+				4C00F58620883F87009B7B35 /* AppDelegate.m */,
+				4C00F5C52088977D009B7B35 /* PrefixHeader.pch */,
+				4C00F59420883F8A009B7B35 /* main.m */,
+				4C00F59020883F8A009B7B35 /* LaunchScreen.storyboard */,
+				4C00F5DD2088A800009B7B35 /* Etoken-Bridging-Header.h */,
+				4C00F58E20883F8A009B7B35 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4C00F59D20884A9B009B7B35 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F59E20884A9B009B7B35 /* Controller */,
+				4C00F59F20884A9B009B7B35 /* Tool */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4C00F59E20884A9B009B7B35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F5A120884ABC009B7B35 /* ETMainViewController.h */,
+				4C00F5A220884ABC009B7B35 /* ETMainViewController.m */,
+				4C00F5C22088976E009B7B35 /* ETNavigateController.h */,
+				4C00F5C32088976E009B7B35 /* ETNavigateController.m */,
+				4C00F5D22088A29F009B7B35 /* ETMenuViewController.h */,
+				4C00F5D32088A29F009B7B35 /* ETMenuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C00F59F20884A9B009B7B35 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4C00F5A020884A9C009B7B35 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F5CE20889BD0009B7B35 /* Extension */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		4C00F5B520889763009B7B35 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F5B620889763009B7B35 /* ETFoundViewController.m */,
+				4C00F5B720889763009B7B35 /* ETMeViewController.m */,
+				4C00F5B820889763009B7B35 /* ETMarketViewController.m */,
+				4C00F5B920889763009B7B35 /* ETAssetsViewController.h */,
+				4C00F5BA20889763009B7B35 /* ETMarketViewController.h */,
+				4C00F5BB20889763009B7B35 /* ETMeViewController.h */,
+				4C00F5BC20889763009B7B35 /* ETFoundViewController.h */,
+				4C00F5BD20889763009B7B35 /* ETAssetsViewController.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		4C00F5CA20889BC6009B7B35 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F5CB20889BC6009B7B35 /* ETSystemTool.h */,
+				4C00F5CC20889BC6009B7B35 /* ETSystemTool.m */,
+				4C00F5D52088A518009B7B35 /* ETHttpTool.h */,
+				4C00F5D62088A518009B7B35 /* ETHttpTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4C00F5CE20889BD0009B7B35 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C00F5CF20889BF2009B7B35 /* NSString+Extension.h */,
+				4C00F5D020889BF2009B7B35 /* NSString+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D4FCAB8C695F0873C2B753DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA1B96DABC7E60E6B47EED5 /* Pods-Etoken.debug.xcconfig */,
+				EFA7A08C0A3247508037663B /* Pods-Etoken.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C00F58120883F87009B7B35 /* Etoken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C00F59820883F8A009B7B35 /* Build configuration list for PBXNativeTarget "Etoken" */;
+			buildPhases = (
+				A429AFD75F3EF4BAA7D777D6 /* [CP] Check Pods Manifest.lock */,
+				4C00F57E20883F87009B7B35 /* Sources */,
+				4C00F57F20883F87009B7B35 /* Frameworks */,
+				4C00F58020883F87009B7B35 /* Resources */,
+				E7D0E321348E37C79B6D0670 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etoken;
+			productName = Etoken;
+			productReference = 4C00F58220883F87009B7B35 /* Etoken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C00F57A20883F86009B7B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = eosfans;
+				TargetAttributes = {
+					4C00F58120883F87009B7B35 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4C00F57D20883F86009B7B35 /* Build configuration list for PBXProject "Etoken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C00F57920883F86009B7B35;
+			productRefGroup = 4C00F58320883F87009B7B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C00F58120883F87009B7B35 /* Etoken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C00F58020883F87009B7B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C00F59220883F8A009B7B35 /* LaunchScreen.storyboard in Resources */,
+				4C00F58F20883F8A009B7B35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A429AFD75F3EF4BAA7D777D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Etoken-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D0E321348E37C79B6D0670 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Etoken/Pods-Etoken-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Etoken/Pods-Etoken-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C00F57E20883F87009B7B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C00F5CD20889BC6009B7B35 /* ETSystemTool.m in Sources */,
+				4C00F5C020889763009B7B35 /* ETMarketViewController.m in Sources */,
+				4C00F5C42088976E009B7B35 /* ETNavigateController.m in Sources */,
+				4C00F5D42088A29F009B7B35 /* ETMenuViewController.m in Sources */,
+				4C00F5BF20889763009B7B35 /* ETMeViewController.m in Sources */,
+				4C00F5D120889BF2009B7B35 /* NSString+Extension.m in Sources */,
+				4C00F5D72088A518009B7B35 /* ETHttpTool.m in Sources */,
+				4C00F59520883F8A009B7B35 /* main.m in Sources */,
+				4C00F5BE20889763009B7B35 /* ETFoundViewController.m in Sources */,
+				4C00F5A320884ABC009B7B35 /* ETMainViewController.m in Sources */,
+				4C00F5C120889763009B7B35 /* ETAssetsViewController.m in Sources */,
+				4C00F58720883F87009B7B35 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C00F59020883F8A009B7B35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C00F59120883F8A009B7B35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C00F59620883F8A009B7B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C00F59720883F8A009B7B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C00F59920883F8A009B7B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA1B96DABC7E60E6B47EED5 /* Pods-Etoken.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QJ298M9XX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Etoken/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = Etoken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eosfans.Etoken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Etoken/Other/Etoken-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C00F59A20883F8A009B7B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA7A08C0A3247508037663B /* Pods-Etoken.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QJ298M9XX;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Etoken/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = Etoken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eosfans.Etoken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Etoken/Other/Etoken-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C00F57D20883F86009B7B35 /* Build configuration list for PBXProject "Etoken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00F59620883F8A009B7B35 /* Debug */,
+				4C00F59720883F8A009B7B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C00F59820883F8A009B7B35 /* Build configuration list for PBXNativeTarget "Etoken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00F59920883F8A009B7B35 /* Debug */,
+				4C00F59A20883F8A009B7B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C00F57A20883F86009B7B35 /* Project object */;
+}

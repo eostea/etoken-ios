@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  Etoken
+//
+//  Created by lingbyAir on 2018/4/19.
+//  Copyright © 2018年 eosfans. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Toast.h"
+#import "ETSystemTool.h"
+
+#ifdef DEBUG
+#define MYLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+#define SINGLETON_FOR_CLASS_H(classname)\
++ (instancetype)share##classname;\
+
+
+
+#define SINGLETON_FOR_CLASS_M(classname)\
+\
+static classname* _instance = nil;\
+\
++ (instancetype)share##classname\
+{\
+static dispatch_once_t onceToken;\
+dispatch_once(&onceToken, ^{\
+_instance = [[super allocWithZone:NULL] init];\
+});\
+return _instance;\
+}\
++(id) allocWithZone:(struct _NSZone *)zone\
+{\
+return [classname share##classname];\
+}\
+-(id)copyWithZone:(NSZone *)zone\
+{\
+return [classname share##classname];\
+}\
+
+#define kScreenWidth            [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight           [UIScreen mainScreen].bounds.size.height
+
+#define kUserDefaults           [NSUserDefaults standardUserDefaults]
+#define kUserValueForKey(key)   [kUserDefaults valueForKey:key]
+#define kAlertMsg(msg)          [[[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:self cancelButtonTitle:@"好的" otherButtonTitles:nil] show]
+
+#define rgbColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define rgbaColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define randomColor rgbColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+
+
+#endif /* PrefixHeader_pch */

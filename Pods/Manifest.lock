@@ -1,0 +1,94 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (5.0.7)
+  - JCore (1.1.7)
+  - JPush (3.0.8):
+    - JCore (~> 1.1.7)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - Onboard (2.3.1)
+  - pop (1.0.10)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
+  - Toast (4.0.0)
+  - ViewDeck (3.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.0)
+  - Bugly (~> 2.5.0)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FMDB (~> 2.7.2)
+  - IQKeyboardManager (~> 5.0.7)
+  - JPush (~> 3.0.8)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (~> 3.1.15.3)
+  - Onboard (~> 2.3.0)
+  - pop (~> 1.0.10)
+  - SDCycleScrollView (~> 1.75)
+  - Toast (~> 4.0.0)
+  - ViewDeck (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Bugly
+    - DZNEmptyDataSet
+    - FMDB
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Onboard
+    - pop
+    - SDCycleScrollView
+    - SDWebImage
+    - Toast
+    - ViewDeck
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  JCore: f7459c81c135281a874a6beafdd321666adcc834
+  JPush: 9574d072cc37e93fa293ba69b43ce763c440943a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
+
+PODFILE CHECKSUM: 38fd5a74b0d5b01cb0e6802401a68424d9c085b3
+
+COCOAPODS: 1.5.0
