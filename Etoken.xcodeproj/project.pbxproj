@@ -21,6 +21,7 @@
 		4C00F5D120889BF2009B7B35 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5D020889BF2009B7B35 /* NSString+Extension.m */; };
 		4C00F5D42088A29F009B7B35 /* ETMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5D32088A29F009B7B35 /* ETMenuViewController.m */; };
 		4C00F5D72088A518009B7B35 /* ETHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00F5D62088A518009B7B35 /* ETHttpTool.m */; };
+		4CD29E80208ED1C800989DB0 /* ETWalletHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD29E7F208ED1C800989DB0 /* ETWalletHomeViewController.m */; };
 		EECCF9E65AEA6821254B4D7D /* libPods-Etoken.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67745E2A8CAAAA4545AA849C /* libPods-Etoken.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		4C00F5D52088A518009B7B35 /* ETHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHttpTool.h; sourceTree = "<group>"; };
 		4C00F5D62088A518009B7B35 /* ETHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHttpTool.m; sourceTree = "<group>"; };
 		4C00F5DD2088A800009B7B35 /* Etoken-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Etoken-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CD29E7E208ED1C800989DB0 /* ETWalletHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETWalletHomeViewController.h; sourceTree = "<group>"; };
+		4CD29E7F208ED1C800989DB0 /* ETWalletHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETWalletHomeViewController.m; sourceTree = "<group>"; };
 		67745E2A8CAAAA4545AA849C /* libPods-Etoken.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Etoken.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA7A08C0A3247508037663B /* Pods-Etoken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Etoken.release.xcconfig"; path = "Pods/Target Support Files/Pods-Etoken/Pods-Etoken.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +113,7 @@
 		4C00F59B208849D0009B7B35 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				4CD29E7D208ED19E00989DB0 /* Wallet */,
 				4C00F5CA20889BC6009B7B35 /* Tool */,
 				4C00F5B520889763009B7B35 /* Tab */,
 				4C00F5A020884A9C009B7B35 /* Lib */,
@@ -128,6 +132,7 @@
 				4C00F59020883F8A009B7B35 /* LaunchScreen.storyboard */,
 				4C00F5DD2088A800009B7B35 /* Etoken-Bridging-Header.h */,
 				4C00F58E20883F8A009B7B35 /* Assets.xcassets */,
+				4CD29E81208F0CE800989DB0 /* resources */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -202,6 +207,22 @@
 				4C00F5D020889BF2009B7B35 /* NSString+Extension.m */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4CD29E7D208ED19E00989DB0 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				4CD29E7E208ED1C800989DB0 /* ETWalletHomeViewController.h */,
+				4CD29E7F208ED1C800989DB0 /* ETWalletHomeViewController.m */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		4CD29E81208F0CE800989DB0 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		D4FCAB8C695F0873C2B753DE /* Pods */ = {
@@ -334,6 +355,7 @@
 				4C00F5D72088A518009B7B35 /* ETHttpTool.m in Sources */,
 				4C00F59520883F8A009B7B35 /* main.m in Sources */,
 				4C00F5BE20889763009B7B35 /* ETFoundViewController.m in Sources */,
+				4CD29E80208ED1C800989DB0 /* ETWalletHomeViewController.m in Sources */,
 				4C00F5A320884ABC009B7B35 /* ETMainViewController.m in Sources */,
 				4C00F5C120889763009B7B35 /* ETAssetsViewController.m in Sources */,
 				4C00F58720883F87009B7B35 /* AppDelegate.m in Sources */,

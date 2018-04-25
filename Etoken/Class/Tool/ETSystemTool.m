@@ -105,7 +105,7 @@
 + (UIButton *)gradientBtn:(UIButton *)btn colors:(NSArray *)colors
 {
     UIView *view = [[UIView alloc] initWithFrame:btn.frame];
-    [view.layer addSublayer:[ETSystemTool setGradualChangingColor:view colors:colors]];
+    [view.layer addSublayer:[ETSystemTool setGradualChangingColor:view direction:GradualDirectionSlant colors:colors]];
     UIImage *img = [ETSystemTool convertViewToImage:view];
     [btn setBackgroundImage:img forState:UIControlStateNormal];
     
@@ -154,15 +154,24 @@
 /**
  生成渐变色view
  */
-+ (CAGradientLayer *)setGradualChangingColor:(UIView *)view colors:(NSArray *)colors{
++ (CAGradientLayer *)setGradualChangingColor:(UIView *)view direction:(GradualDirection)direction colors:(NSArray *)colors{
     //    CAGradientLayer类对其绘制渐变背景颜色、填充层的形状(包括圆角)
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     gradientLayer.frame = view.bounds;
     //  创建渐变色数组，需要转换为CGColor颜色
     gradientLayer.colors = colors;
     //  设置渐变颜色方向，左上点为(0,0), 右下点为(1,1)
-    gradientLayer.startPoint = CGPointMake(0, 0);
-    gradientLayer.endPoint = CGPointMake(1, 1);
+    if (direction == GradualDirectionHorizontal) {
+        gradientLayer.startPoint = CGPointMake(0, 0);
+        gradientLayer.endPoint = CGPointMake(1, 0);
+    }else if (direction == GradualDirectionVertical){
+        gradientLayer.startPoint = CGPointMake(0, 0);
+        gradientLayer.endPoint = CGPointMake(0, 1);
+    }else{
+        gradientLayer.startPoint = CGPointMake(0, 0);
+        gradientLayer.endPoint = CGPointMake(1, 1);
+    }
+
     //  设置颜色变化点，取值范围 0.0~1.0
     gradientLayer.locations = @[@0,@1];
     return gradientLayer;

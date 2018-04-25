@@ -11,7 +11,7 @@
 #import "ETMainViewController.h"
 #import "ETMenuViewController.h"
 #import "IIViewDeckController.h"
-
+#import "ETWalletHomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -32,9 +32,12 @@
     keyboardManager.keyboardDistanceFromTextField = 10.0f;
     
     
-    ETMainViewController *mainVC = [[ETMainViewController alloc] init];
-    ETMenuViewController *menuVC = [[ETMenuViewController alloc] init];
-    IIViewDeckController *viewDeckController = [[IIViewDeckController alloc] initWithCenterViewController:mainVC leftViewController:menuVC];
+//    ETMainViewController *mainVC = [[ETMainViewController alloc] init];
+//    ETMenuViewController *menuVC = [[ETMenuViewController alloc] init];
+//    IIViewDeckController *viewDeckController = [[IIViewDeckController alloc] initWithCenterViewController:mainVC leftViewController:menuVC];
+    
+    
+    ETWalletHomeViewController *viewDeckController = [[ETWalletHomeViewController alloc] init];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
